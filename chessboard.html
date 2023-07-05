@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Chessboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Freehand&display=swap" rel="stylesheet">
+  <style>
+    body{
+      margin: 0;
+      top: 0;
+      font-family: 'Freehand', cursive;
+    }
+    .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:100%;
+      flex-direction: column;
+      margin-bottom: 50px;
+    }
+    .center > h1{
+      margin-bottom: 40px;
+    }
+    .container{
+      cursor: pointer;
+      width: 800px;
+      display : grid;
+      grid-template-columns: 1fr  1fr  1fr  1fr  1fr  1fr  1fr  1fr ;
+      grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      gap: 0px;
+      box-shadow: 0 10px 90px black;
+    }
+    .white{
+      cursor: pointer;
+background-color: burlywood;
+height: 100px;
+width: 100px;
+transition: transform 0.3s ease;
+    }
+    .white:hover{
+      transform: scale(1.2);
+      box-shadow: 0 0 30px 10px black;
+    }
+    .black{
+      cursor: pointer;
+      background-color: rgb(91, 63, 26);
+      height: 100px;
+      width: 100px;
+      transition: transform 0.3s ease;
+    }
+    .black:hover{
+      transform: scale(1.2);
+      box-shadow: 0 0 30px 10px black;
+    }
+    .footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+  </style>
+</head>
+
+<body>
+  <div class="center">
+    <h1 style="text-align: center;">Chess Board</h1>
+  <div class="container">
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+    <div class="black"></div>
+    <div class="white"></div>
+  </div>
+</div>
+  
+</div>
+<footer class="footer">
+  <p>&copy; 2023 Mani sai. All rights reserved.</p>
+</footer>
+</body>
+
+</html>
